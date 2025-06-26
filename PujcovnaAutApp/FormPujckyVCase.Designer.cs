@@ -46,26 +46,28 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Peru;
+            this.menuStrip1.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.četnostPůjčováníToolStripMenuItem,
             this.jednotlivéVozidlaPodleObdobíToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 26);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // četnostPůjčováníToolStripMenuItem
             // 
             this.četnostPůjčováníToolStripMenuItem.Name = "četnostPůjčováníToolStripMenuItem";
-            this.četnostPůjčováníToolStripMenuItem.Size = new System.Drawing.Size(115, 20);
+            this.četnostPůjčováníToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.četnostPůjčováníToolStripMenuItem.Text = "Četnost půjčování";
             this.četnostPůjčováníToolStripMenuItem.Click += new System.EventHandler(this.četnostPůjčováníToolStripMenuItem_Click);
             // 
             // jednotlivéVozidlaPodleObdobíToolStripMenuItem
             // 
             this.jednotlivéVozidlaPodleObdobíToolStripMenuItem.Name = "jednotlivéVozidlaPodleObdobíToolStripMenuItem";
-            this.jednotlivéVozidlaPodleObdobíToolStripMenuItem.Size = new System.Drawing.Size(186, 20);
+            this.jednotlivéVozidlaPodleObdobíToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
             this.jednotlivéVozidlaPodleObdobíToolStripMenuItem.Text = "Jednotlivé vozidla podle období";
             this.jednotlivéVozidlaPodleObdobíToolStripMenuItem.Click += new System.EventHandler(this.jednotlivéVozidlaPodleObdobíToolStripMenuItem_Click);
             // 
